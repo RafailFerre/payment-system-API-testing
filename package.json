@@ -1,0 +1,12 @@
+{
+  "name": "paysis-api-test-typescript",
+  "version": "1.0.0",
+  "description": "API test for local Payment System",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "keywords": [],
+  "author": "Rafail Ferre",
+  "license": "ISC"
+}
