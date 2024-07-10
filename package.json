@@ -4,7 +4,9 @@
   "description": "API test for local Payment System",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest",
+    "format": "npx prettier ./ --write --list-different",
+    "lint": "prettier ./ --check"
   },
   "keywords": [],
   "author": "Rafail Ferre",
@@ -18,7 +20,8 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
-    "@types/supertest": "^6.0.2"
+    "@types/supertest": "^6.0.2",
+    "prettier": "^3.3.2"
   },
   "jest": {
     "preset": "ts-jest",
