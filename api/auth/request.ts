@@ -1,4 +1,4 @@
 export type AuthRequestBody = {
-    login: string
-    password: string
+  login: string
+  password: string
 }
